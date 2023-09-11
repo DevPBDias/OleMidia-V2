@@ -1,12 +1,14 @@
 import Header from '../components/header/Header';
-import { GlobalStyle } from './styles';
+import Opening from '../components/opening/Opening';
+import { GlobalStyle, Main } from './styles';
 
 function Home() {
   return (
-    <div>
+    <Main>
       <GlobalStyle />
       <Header />
-    </div>
+      <Opening />
+    </Main>
   );
 }
 

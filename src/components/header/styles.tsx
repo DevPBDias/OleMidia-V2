@@ -43,7 +43,6 @@ export const NavBar = styled.nav`
 
 export const Link = styled.a`
     color: #EBE4DE;
-    font-family: 'Open Sans';
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 600;
