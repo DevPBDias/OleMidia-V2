@@ -8,9 +8,10 @@ export const HeaderBar = styled.header`
     justify-items: center;
     align-items: center;
     height: 7.75rem;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
+    z-index: 1;
     background: #FF6224;
 `;
 
