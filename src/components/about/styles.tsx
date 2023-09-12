@@ -14,7 +14,7 @@ export const ContainerText = styled.div`
     justify-content: center;
     flex-shrink: 0;
     position: absolute;
-    top: 41%;
+    top: 50%;
     right: 1%;
 `;
 
@@ -23,17 +23,18 @@ export const Text = styled.p`
     width: 36.5rem;
     height: 23.25rem;
     flex-shrink: 0;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: 3rem;
     text-align: left;
-`;
+    `;
 
 export const Title = styled.h3`
+    text-transform: uppercase;
     color: #FF6224;
     font-family: Open Sans;
-    font-size: 4rem;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 800;
     line-height: 9.625rem;

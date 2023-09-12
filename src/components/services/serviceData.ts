@@ -2,7 +2,7 @@ import serviceOne from '../../assets/serviceOne.svg';
 import serviceTwo from '../../assets/serviceTwo.svg';
 import serviceThree from '../../assets/serviceThree.svg';
 
-type IDataService = {
+export type IDataService = {
   title: string,
   image: string,
   description: string,

@@ -1,9 +1,9 @@
-import OleAbout from '../../assets/OleAbout.svg';
+import OleAbout from '../../assets/QuemSomos 1.png';
 import { ContainerAbout, ContainerText, Text, Title } from './styles';
 
 function About() {
   return (
-    <ContainerAbout>
+    <ContainerAbout id="who">
       <img src={ OleAbout } alt="OleAbout" />
       <ContainerText>
         <Title>Quem somos</Title>

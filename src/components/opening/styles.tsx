@@ -11,10 +11,9 @@ export const Text = styled.p`
     position: absolute;
     top: 30%;
     left: 8%;
-    font-size: 5.7rem;
+    font-size: 6vw;
     font-style: normal;
     font-weight: 700;
-    line-height: 9.625rem;
     text-align: left;
 `;
 
@@ -25,4 +24,9 @@ export const Arrow = styled.img`
     bottom: 10%;
     right: 8%;
     flex-shrink: 0;
+`;
+
+export const BgOle = styled.img`
+    width: 100%;
+    height: auto;
 `;

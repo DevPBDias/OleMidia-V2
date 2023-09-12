@@ -1,13 +1,13 @@
 import GoDownArrow from '../../assets/Seta.svg';
-import { Arrow, ContainerOpening, Text } from './styles';
+import { Arrow, ContainerOpening, Text, BgOle } from './styles';
 import Background from '../../assets/BackgroundHome.svg';
 
 function Opening() {
   return (
     <ContainerOpening id="home">
-      <img src={ Background } alt="Background" />
+      <BgOle src={ Background } alt="Background" />
       <Text>
-        SUA MARCA,
+        SUA IMAGEM,
         <br />
         NOSSO PLANO
         <br />

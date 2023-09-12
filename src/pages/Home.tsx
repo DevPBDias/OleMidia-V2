@@ -1,6 +1,7 @@
 import About from '../components/about/About';
 import Header from '../components/header/Header';
 import Opening from '../components/opening/Opening';
+import Services from '../components/services/Services';
 import { GlobalStyle, Main } from './styles';
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
       <Header />
       <Opening />
       <About />
+      <Services />
     </Main>
   );
 }
