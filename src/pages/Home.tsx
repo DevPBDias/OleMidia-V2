@@ -1,5 +1,6 @@
 import About from '../components/about/About';
 import Clients from '../components/clients/Clients';
+import Footer from '../components/footer/Footer';
 import Header from '../components/header/Header';
 import Opening from '../components/opening/Opening';
 import Portfolio from '../components/portfolio/Portfolio';
@@ -16,6 +17,7 @@ function Home() {
       <Services />
       <Clients />
       <Portfolio />
+      <Footer />
     </Main>
   );
 }
