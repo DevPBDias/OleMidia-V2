@@ -45,4 +45,7 @@ export const BtnPort = styled.button`
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    &:hover {
+    background:  #9d3c16;
+    }
 `;

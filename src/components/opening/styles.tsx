@@ -11,10 +11,11 @@ export const Text = styled.p`
     position: absolute;
     top: 30%;
     left: 8%;
-    font-size: 6vw;
+    font-size: 91px;
     font-style: normal;
     font-weight: 700;
     text-align: left;
+    line-height: 109px;
 `;
 
 export const Arrow = styled.img`
