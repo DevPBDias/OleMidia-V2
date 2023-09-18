@@ -7,6 +7,5 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const Main = styled.main`
-    display: flex;
-    flex-flow: column nowrap;
+    display: block;
 `;

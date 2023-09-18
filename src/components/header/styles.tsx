@@ -3,22 +3,20 @@ import styled from 'styled-components';
 export const HeaderBar = styled.header`
     width: 100%;
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
     flex-flow: row nowrap;
     justify-content: space-around;
     justify-items: center;
     align-items: center;
-    height: 7.75rem;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    background: #FF6224;
+    height: 124px;
+    background: var(--bg-orange);
 `;
 
 export const OleLogo = styled.img`
-    width: 4.75rem;
-    height: 3.375rem;
-    flex-shrink: 0;
+    width: 3rem;
+    height: 2.5rem;
 `;
 
 export const ContainerNavIcons = styled.section`
@@ -27,9 +25,8 @@ export const ContainerNavIcons = styled.section`
     justify-content: space-between;
     justify-items: center;
     align-items: center;
-    gap: 3rem;
     text-transform: uppercase;
-    padding: 1rem;
+    gap: 1rem;
 `;
 
 export const NavBar = styled.nav`
@@ -38,13 +35,12 @@ export const NavBar = styled.nav`
     justify-content: space-around;
     justify-items: center;
     align-items: center;
-    gap: 1.2rem;
     padding: 1rem;
+    gap: 1rem;
 `;
 
 export const Link = styled.a`
-    color: #EBE4DE;
-    font-size: 1.125rem;
+    font-size: 0.64rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -56,11 +52,11 @@ export const ContainerIcons = styled.section`
     flex: row;
     justify-items: center;
     align-items: center;
-    gap: 0.8rem;
+    gap: 0.5rem;
 `;
 
 export const Icons = styled.img`
-    width: 1.99638rem;
-    height: 1.99638rem;
-    flex-shrink: 0;
+    width: 1rem;
+    height: 1rem;
+    margin: auto;
 `;
