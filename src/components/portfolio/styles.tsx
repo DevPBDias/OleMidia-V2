@@ -11,41 +11,39 @@ export const PortSection = styled.section`
 
 export const TitleSection = styled.h1`
     color: #260A00;
-    font-size: 64px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 800;
-    line-height: 154px;
+    line-height: 5rem;
     text-transform: uppercase;
-    margin-top: 20px;
 `;
 
 export const ContainerCards = styled.div`
+    width: 85%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-between;
     justify-items: center;
     align-items: center;
 `;
 
 export const ImagePort = styled.img`
-    width: 376px;
-    height: 470px;
-    flex-shrink: 0;
-    margin: 10px;
+    width: 10rem;
+    height: 13rem;
 `;
 
 export const BtnPort = styled.button`
-    background: #FF6224;
-    width: 526px;
-    height: 53px;
-    flex-shrink: 0;
-    margin: 40px;
+    background: var(--bg-orange);
+    width: 20rem;
+    height: 2rem;
+    margin: 2rem;
     color: #260A00;
-    font-size: 18px;
+    font-size: 0.7rem;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 2rem;
+
     &:hover {
-    background:  #9d3c16;
+        background:  #9d3c16;
     }
 `;

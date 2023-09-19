@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ClientSection = styled.section`
-    background: #FF6224;
+    background: var(--bg-orange);
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -11,27 +11,24 @@ export const ClientSection = styled.section`
 
 export const TitleSection = styled.h1`
     color: #260A00;
-    font-size: 64px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 800;
-    line-height: 154px; 
+    line-height: 5rem; 
     text-transform: uppercase;
-    margin-top: 20px;
 `;
 
 export const ContainerCards = styled.div`
-    width: 100%;
+    width: 85%;
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
     justify-items: center;
     align-items: center;
-    width: 508px;
-    height: 638px;
+    padding-bottom: 2rem;
 `;
 
 export const ImageClient = styled.img`
-    width: 408px;
-    height: 533px;
-    margin: 20px;
+    width: 12.5rem;
+    height: 18rem;
 `;

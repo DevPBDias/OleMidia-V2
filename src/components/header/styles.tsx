@@ -12,6 +12,7 @@ export const HeaderBar = styled.header`
     align-items: center;
     height: 124px;
     background: var(--bg-orange);
+    z-index: 99;
 `;
 
 export const OleLogo = styled.img`
@@ -45,6 +46,11 @@ export const Link = styled.a`
     font-weight: 600;
     line-height: normal;
     text-decoration: none;
+
+    &:hover {
+        color: #260A00;
+    }
+    
 `;
 
 export const ContainerIcons = styled.section`

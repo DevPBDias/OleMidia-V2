@@ -1,5 +1,5 @@
 import { Data, IDataService } from './serviceData';
-import { ContainerCard, TitleService,
+import { ContainerCard, TitleService, ImageService,
   Description, ContainerServices, ContainerText } from './styles';
 
 function ServiceCard() {
@@ -8,7 +8,7 @@ function ServiceCard() {
       {
             Data.map((service: IDataService) => (
               <ContainerCard key={ service.title }>
-                <img src={ service.image } alt={ service.title } />
+                <ImageService src={ service.image } alt={ service.title } />
                 <ContainerText>
                   <TitleService>{service.title}</TitleService>
                   <Description>{service.description}</Description>
