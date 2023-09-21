@@ -57,16 +57,16 @@ function Contact() {
     const regex = /\S+@\S+\.\S+/;
     const validEmail = regex.test(formData.email);
     if (formData.name === '') {
-      errors.push('Nome é obrigatório');
+      errors.push('Nome é obrigatório!');
     }
     if (!validEmail || formData.email === '') {
-      errors.push('E-mail inválido');
+      errors.push('E-mail inválido!');
     }
     if (formData.subject === '') {
-      errors.push('Assunto é obrigatório');
+      errors.push('Assunto é obrigatório!');
     }
     if (formData.message === '') {
-      errors.push('Mensagem é obrigatório');
+      errors.push('Mensagem é obrigatório!');
     }
     setErrorMsg(errors);
     return errors.length === 0;

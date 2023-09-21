@@ -40,6 +40,7 @@ export const Input = styled.input`
     font-style: normal;
     font-weight: 600;
     line-height: 2rem;
+    border-radius: 8px;
     
     &::placeholder {
     color: #260A00 0.5;
@@ -51,6 +52,7 @@ export const Input = styled.input`
 `;
 
 export const TextArea = styled.textarea`
+    border-radius: 8px;
     width: 100%;
     height: 6rem;
     padding-left: 1rem;
@@ -74,7 +76,8 @@ export const TextArea = styled.textarea`
 
 export const ErrorMsgText = styled.p`
     width: 100%;
-    color: #260A00;
+    border-radius: 4px;
+    color: #9d3c16;
     border-left: 0.5rem solid var(--bg-orange);
     /* background-color: var(--bg-orange); */
     background-color: #EBE4DE;
@@ -90,13 +93,15 @@ export const BtnSubmit = styled.button`
     width: 244px;
     height: 53px;
     flex-shrink: 0;
-    background: #FF6224;
+    background: var(--bg-orange);
     color: #260A00;
     font-family: Open Sans;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    border-radius: 8px;
+    margin-top: .5rem;
 
     &:hover {
     background:  #9d3c16;

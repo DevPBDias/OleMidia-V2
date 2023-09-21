@@ -5,7 +5,7 @@ import { PortSection, TitleSection, BtnPort } from './styles';
 function Portfolio() {
   const navigate = useNavigate();
   return (
-    <PortSection>
+    <PortSection id="portfolio">
       <TitleSection>Nosso portfólio</TitleSection>
       <PortfolioCard />
       <BtnPort

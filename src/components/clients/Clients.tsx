@@ -3,7 +3,7 @@ import { TitleSection, ClientSection } from './styles';
 
 function Clients() {
   return (
-    <ClientSection>
+    <ClientSection id="client">
       <TitleSection>Nossos clientes</TitleSection>
       <ClientCard />
     </ClientSection>
