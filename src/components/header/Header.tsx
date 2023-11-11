@@ -1,4 +1,4 @@
-import logo from '../../assets/OleLogo.svg';
+import logo from '../../assets/OleLogo.webp';
 import { HeaderBar, OleLogo } from './styles';
 import Burger from './Burger';
 import IconsNavbar from './IconsNavbar';

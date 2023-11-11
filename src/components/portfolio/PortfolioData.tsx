@@ -1,11 +1,11 @@
-import poster1 from '../../assets/posterOne.svg';
-import poster2 from '../../assets/posterTwo.svg';
-import poster3 from '../../assets/posterThree.svg';
-import poster4 from '../../assets/posterFour.svg';
-import poster5 from '../../assets/posterFIve.svg';
-import poster6 from '../../assets/posterSix.svg';
-import poster7 from '../../assets/posterSeven.svg';
-import poster8 from '../../assets/posterEight.svg';
+import poster1 from '../../assets/posterOne.webp';
+import poster2 from '../../assets/posterTwo.webp';
+import poster3 from '../../assets/posterThree.webp';
+import poster4 from '../../assets/posterFour.webp';
+import poster5 from '../../assets/posterFIve.webp';
+import poster6 from '../../assets/posterSix.webp';
+import poster7 from '../../assets/posterSeven.webp';
+import poster8 from '../../assets/posterEight.webp';
 
 export type IPortfolio = {
   id: number,

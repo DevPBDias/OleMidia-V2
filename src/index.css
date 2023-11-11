@@ -6,6 +6,7 @@
   --deskotop: 1400px;
   --bg-orange:  #FF6224;
   --text-color-white: #EBE4DE;
+  --bg-brown: #260A00;
 } 
 
 * {
@@ -18,34 +19,4 @@
   font-size: 28px;
   text-align: center;
   /* border: 1px solid blue; */
-}
-
-body {
-  margin: 0;
-}
-
-main {
-  display: block;
-}
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
-a {
-  background-color: transparent;
-  text-decoration: none;
-}
-
-small {
-  font-size: 80%;
-}
-
-small {
-  font-size: 80%;
-}
-
-img {
-  border-style: none;
 }

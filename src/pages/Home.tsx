@@ -6,11 +6,11 @@ import Header from '../components/header/Header';
 import Opening from '../components/opening/Opening';
 import Portfolio from '../components/portfolio/Portfolio';
 import Services from '../components/services/Services';
-import { GlobalStyle, Main } from './styles';
+import { GlobalStyle } from './styles';
 
 function Home() {
   return (
-    <Main>
+    <>
       <GlobalStyle />
       <Header />
       <Opening />
@@ -20,7 +20,7 @@ function Home() {
       <Portfolio />
       <Contact />
       <Footer />
-    </Main>
+    </>
   );
 }
 

@@ -1,9 +1,11 @@
 import emailjs from '@emailjs/browser';
 import React, { useState } from 'react';
-import { ContactSection, ContactForm,
-  TextArea, Input, BtnSubmit, ContactTitle, ErrorMsgText } from './styles';
+import BtnSubmit from './BtnSubmit';
+import { ContactSection, ContactForm, ContactTitle } from './styles';
+import ErrorForm from './ErrorForm';
+import InputForm from './InputForm';
 
-type IForm = {
+export type IForm = {
   name: string,
   email: string,
   subject: string,
@@ -56,6 +58,7 @@ function Contact() {
     const errors = [];
     const regex = /\S+@\S+\.\S+/;
     const validEmail = regex.test(formData.email);
+
     if (formData.name === '') {
       errors.push('Nome é obrigatório!');
     }
@@ -94,45 +97,15 @@ function Contact() {
     <ContactSection id="contact">
       <ContactForm onSubmit={ (event) => handleSubmit(event) } action="#">
         <ContactTitle>Contato</ContactTitle>
-        <Input
-          type="text"
-          name="name"
-          value={ formData.name }
-          placeholder="Nome"
-          onChange={ (event) => handleChange(event) }
+        <InputForm
+          name={ formData.name }
+          subject={ formData.subject }
+          email={ formData.email }
+          message={ formData.message }
+          handleChange={ (event) => handleChange(event) }
         />
-        <Input
-          type="text"
-          name="email"
-          value={ formData.email }
-          placeholder="E-mail"
-          onChange={ (event) => handleChange(event) }
-        />
-        <Input
-          type="text"
-          name="subject"
-          value={ formData.subject }
-          placeholder="Assunto"
-          onChange={ (event) => handleChange(event) }
-        />
-        <TextArea
-          placeholder="Mensagem"
-          name="message"
-          value={ formData.message }
-          onChange={ (event) => handleChange(event) }
-        />
-        {
-          errorMsg && errorMsg.map((msg: string, key: number) => (
-            <ErrorMsgText key={ key }>
-              {msg}
-            </ErrorMsgText>
-          ))
-        }
-        <BtnSubmit
-          type="submit"
-        >
-          ENVIAR
-        </BtnSubmit>
+        <ErrorForm errorMsg={ errorMsg } />
+        <BtnSubmit />
       </ContactForm>
     </ContactSection>
   );

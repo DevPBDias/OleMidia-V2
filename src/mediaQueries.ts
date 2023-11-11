@@ -1,4 +1,5 @@
 type IPoints = {
+  xxs: string,
   xs: string,
   sm: string,
   md: string,
@@ -8,6 +9,7 @@ type IPoints = {
 };
 
 const breakpoints: IPoints = {
+  xxs: '375px',
   xs: '576px',
   sm: '768px',
   md: '992px',
@@ -17,6 +19,7 @@ const breakpoints: IPoints = {
 };
 
 type IDevices = {
+  mini: string,
   mobile: string,
   landscapePhones: string,
   tablets: string,
@@ -26,10 +29,11 @@ type IDevices = {
 };
 
 export const devices: IDevices = {
-  mobile: `(min-width: ${breakpoints.xs})`,
-  landscapePhones: `(min-width: ${breakpoints.sm})`,
-  tablets: `(min-width: ${breakpoints.md})`,
-  desktops: `(min-width: ${breakpoints.lg})`,
-  largeDesktops: `(min-width: ${breakpoints.xl})`,
-  largerDesktops: `(min-width: ${breakpoints['2xl']})`,
+  mini: `(max-width: ${breakpoints.xxs})`,
+  mobile: `(max-width: ${breakpoints.xs})`,
+  landscapePhones: `(max-width: ${breakpoints.sm})`,
+  tablets: `(max-width: ${breakpoints.md})`,
+  desktops: `(max-width: ${breakpoints.lg})`,
+  largeDesktops: `(max-width: ${breakpoints.xl})`,
+  largerDesktops: `(max-width: ${breakpoints['2xl']})`,
 };

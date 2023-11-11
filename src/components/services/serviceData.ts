@@ -1,6 +1,6 @@
-import serviceOne from '../../assets/serviceOne.svg';
-import serviceTwo from '../../assets/serviceTwo.svg';
-import serviceThree from '../../assets/serviceThree.svg';
+import serviceOne from '../../assets/serviceOne.webp';
+import serviceTwo from '../../assets/serviceTwo.webp';
+import serviceThree from '../../assets/serviceThree.webp';
 
 export type IDataService = {
   title: string,

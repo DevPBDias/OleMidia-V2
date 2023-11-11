@@ -1,6 +1,6 @@
-import client1 from '../../assets/Olé_Giuliano.svg';
-import client2 from '../../assets/Olé_Leo.svg';
-import client3 from '../../assets/Olé_Evertinho 1.svg';
+import client1 from '../../assets/Olé_Giuliano.webp';
+import client2 from '../../assets/Olé_Leo.webp';
+import client3 from '../../assets/Olé_Evertinho 1.webp';
 
 export type IClient = {
   id: number,
