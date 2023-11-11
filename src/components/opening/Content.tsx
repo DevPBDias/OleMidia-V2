@@ -94,7 +94,7 @@ function Content() {
         <br />
         nosso plano
         <br />
-        de jogos!
+        de jogo!
       </TextHome>
       <img src={ GoDownArrow } alt="GoDownArrow" className="arrow" />
     </ContainerContent>
